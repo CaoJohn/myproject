@@ -57,11 +57,9 @@ class WorkLoginPage(BasePage):
             self.driver.find_element(*MainPageLocators.GO_BUTTON).click()
         elif "work.1688" in self.driver.current_url:
             self.driver.find_element_by_id("J_Quick2Static").click()
-    #         self.driver.find_element_by_id("TPL_username_1").send_keys("dongyl1111")
-            self.driver.find_element_by_id("TPL_username_1").send_keys("b测试账号006")
+            self.driver.find_element_by_id("TPL_username_1").send_keys("dongyl1111")
             time.sleep(1)
-            self.driver.find_element_by_id("TPL_password_1").send_keys("jiangwen.cjw|#Apple7890")
-    #         self.driver.find_element_by_id("TPL_password_1").send_keys("1111112")
+            self.driver.find_element_by_id("TPL_password_1").send_keys("1111112")
             self.driver.find_element(*MainPageLocators.GO_BUTTON).click()
         else:
             print("url error")
