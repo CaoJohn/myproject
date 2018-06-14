@@ -1,0 +1,1 @@
+INSERT INTO selUops(gmt_create, name, ops_order,locator, location, type, ops, value, assert, required, ops_detail) VALUES (NOW(),'caigou_member_create', 1,'id', 'J_Quick2Static', 'button', 'click','test112', 'test112', 0, '新建员工');
